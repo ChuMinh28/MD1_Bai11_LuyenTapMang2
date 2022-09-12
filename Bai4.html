@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // function wordCount(str) {
+  //   return str.split(' ').length
+  // }
+  // console.log(wordCount('Hello my name is Jonny Tip'))
+  let count = 0
+  let input = prompt('Enter a Phrase').trim().split(' ')
+  if (input === ''){
+      alert('Please try again')
+  }else {
+      for (let i = 0;i<input.length;i++){
+          count = count+1
+      }
+      alert('So tu trong chuoi la: ' +count )
+  }
+</script>
+</body>
+</html>
